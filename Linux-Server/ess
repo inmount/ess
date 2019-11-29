@@ -1,0 +1,15 @@
+[Unit]
+Description=eTurm Session Server
+
+[Service]
+Type=simple
+WorkingDirectory=/mnt/x/Projects/eTurm/ess/Linux-Server
+Environment=ASPNETCORE_ENVIRONMENT=Development
+ExecStart=/mnt/x/Projects/eTurm/ess/Linux-Server/ess
+ExecStop=/bin/kill -2 $MAINPID
+KillMode=process
+Restart=on-failure
+RestartSec=1s
+
+[Install]
+WantedBy=multi-user.target

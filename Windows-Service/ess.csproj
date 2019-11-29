@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Version>1.1.1911.9</Version>
+    <Authors>eTurm Technology Co., Ltd</Authors>
+    <Product>eTurm Session Server</Product>
+    <Description>简易交互信息服务</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dpz3.ssr.SessionServer" Version="1.0.1911.1" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
