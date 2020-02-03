@@ -10,4 +10,13 @@
     <PackageReference Include="dpz3.ssr.SessionServer" Version="1.0.1911.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="install.sh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="uninstall.sh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
